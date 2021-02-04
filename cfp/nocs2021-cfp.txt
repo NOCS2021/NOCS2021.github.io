@@ -1,9 +1,9 @@
 NOCS 2021
 =========
 
-15th IEEE/ACM International Symposium on Networks-on-Chip  
-October 10 - 15, 2021, Virtual Conference  
-(Co-located with Embedded Systems Week 2021)  
+15th IEEE/ACM International Symposium on Networks-on-Chip
+October 10 - 15, 2021, Virtual Conference
+(Co-located with Embedded Systems Week 2021)
 https://nocs2021.github.io/
 
 ## CALL FOR PAPERS
@@ -63,30 +63,30 @@ The International Symposium on Networks-on-Chip (NOCS) is the premier event dedi
 Electronic paper submission requires a full paper, up to 8 double-column ACM (sigconf) format pages, including figures and references. The program committee will use a double-blind review process to evaluate papers based on scientific merit, innovation, relevance, and presentation. Submitted papers must describe original work that has not been published before or is under review by another conference or journal at the same time. Each submission will be checked for any significant similarity to previously published works or for simultaneous submission to other archival venues, and such papers will be rejected. Proposals for special sessions and demos are invited. Paper submissions and demo proposals by industry researchers or engineers to share their experiences and perspectives are also welcome.
 
 **New in 2021**
-Journal-Integrated Publication Model: NOCS 2021 accepted papers will be published in the ACM Journal on Emerging Technologies in Computing Systems (pending approval).
+Journal-Integrated Publication Model: A selected number of accepted papers will be invited to be published in an ACM JETC Special Issue.
 
 Please find the detailed submission instructions for paper submission, special session, and demo proposals at the submission webpage.
 
 --------------------------------------------------------------------------------
 
 ## Important Dates (Anywhere on Earth)
-Abstract registration: April 2, 2021  
-Full paper submission: April 9, 2021  
-Notification of acceptance: July 5, 2021
+Abstract registration: May 14, 2021  
+Full paper submission: May 21, 2021  
+Notification of acceptance: July 23, 2021  
 
 ## Organizing Committee
 
 ### General Chairs
-Tushar Krishna (Georgia Institute of Technology)  
+Tushar Krishna (Georgia Institute of Technology)
 John Kim (KAIST)
 
 ### Technical Program Chairs
-Sergi Abadal (Universitat Politècnica de Catalunya)  
+Sergi Abadal (Universitat Politècnica de Catalunya)
 Joshua San Miguel (University of Wisconsin-Madison)
 
 ### Publicity Chairs
-José Luis Abellán (Catholic University of Murcia)  
-Kun-Chih Chen (National Sun Yat-Sen University)  
+José Luis Abellán (Catholic University of Murcia)
+Kun-Chih Chen (National Sun Yat-Sen University)
 Jieming Yin (Lehigh University)
 
 ### Web Chair
@@ -95,5 +95,8 @@ Salvatore Monteleone (Kore University of Enna)
 ### Publication Chair
 Mahdi Nikdast (Colorado State University)
 
+### Industry Chair
+Hao Luan (Futurewei Technologies)
+
 ### Steering Committee Chair
-Radu Marculescu (University of Texas, Austin)  
+Radu Marculescu (University of Texas, Austin)
