@@ -63,7 +63,7 @@ The International Symposium on Networks-on-Chip (NOCS) is the premier event dedi
 Electronic paper submission requires a full paper, up to 8 double-column ACM (sigconf) format pages, including figures and references. The program committee will use a double-blind review process to evaluate papers based on scientific merit, innovation, relevance, and presentation. Submitted papers must describe original work that has not been published before or is under review by another conference or journal at the same time. Each submission will be checked for any significant similarity to previously published works or for simultaneous submission to other archival venues, and such papers will be rejected. Proposals for special sessions and demos are invited. Paper submissions and demo proposals by industry researchers or engineers to share their experiences and perspectives are also welcome.
 
 **New in 2021**
-Journal-Integrated Publication Model: A selected number of accepted papers will be invited to be published in an ACM JETC Special Issue.
+Journal Special Issue: A selected number of accepted papers will be invited to be published in an ACM JETC Special Issue.
 
 Please find the detailed submission instructions for paper submission, special session, and demo proposals at the submission webpage.
 
