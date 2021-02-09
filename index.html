@@ -4,8 +4,9 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <link href="bootstrap/css/bootstrap.min.css" type="text/css" rel="stylesheet">
-    <link href="custom.css" type="text/css" rel="stylesheet">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="screen.css" type="text/css" media="screen">
+    <link rel="stylesheet" href="print.css" type="text/css" media="print">
 
     <title>NOCS 2021 - 15th IEEE/ACM International Symposium on Networks-on-Chip</title>
 </head>
@@ -52,38 +53,58 @@
             </div>
         </div>
     </nav>
-</header>
-<main>
     <div class="banner">
-        <img src="images/banner.svg">
+        <img class="banner_bg screenonly" src="images/banner.svg" alt="">
+        <div class="qr printonly">
+            <img src="images/qr.svg" alt="QR Code to reach this website">
+            <p>
+                More info available at:<br>
+                https://nocs2021.github.io/
+            </p>
+        </div>
         <div class="top-left">
             <h1>NOCS 2021</h1>
-            <h5>15th&nbsp;IEEE/ACM International&nbsp;Symposium on Networks&#8209;on&#8209;Chip</h5>
+            <h5>15th&nbsp;IEEE/ACM International Symposium on Networks&#8209;on&#8209;Chip</h5>
             <br>
-            <h4>October 10-15, 2021, Virtual Conference</h4>
+            <h4>October&nbsp;10&#8209;15,&nbsp;2021, Virtual&nbsp;Conference</h4>
         </div>
     </div>
-
+</header>
+<main>
     <div class="container">
         <div class="row">
             <div class="col-md-1"></div>
             <div class="col-md-10">
-                <h1>About NOCS</h1>
-                <p>The International Symposium on Networks-on-Chip (NOCS) is the premier event dedicated to
+                <h1>
+                    About NOCS
+                </h1>
+                <p>
+                    The International Symposium on Networks-on-Chip (NOCS) is the premier event dedicated to
                     interdisciplinary research on on-chip, package-scale, chip-to-chip, and datacenter rack-scale
                     communication technology, architecture, design methods, applications, and systems. NOCS brings
                     together scientists and engineers working on NoC innovations and applications from inter-related
                     research communities, including discrete optimization and algorithms, computer architecture,
-                    networking, circuits and systems, packaging, embedded systems, and design automation.</p>
-                <strong>NOCS 2021 will be co-located with <a href="https://esweek.org/" target="_blank">ESWEEK 2021</a>.</strong>
-                <p>&nbsp;</p>
+                    networking, circuits and systems, packaging, embedded systems, and design automation.
+                </p>
+                <strong>
+                    NOCS 2021 will be co-located with <a href="https://esweek.org/" target="_blank">ESWEEK 2021</a>.
+                </strong>
+
                 <h1>News</h1>
-                    <ul>
-                        <li><strong>February 8, 2021:</strong> The tentative <a href="cfp.html">Call for Papers</a> has been updated again (important dates remain the same).</li>
-                        <li><strong>February 4, 2021:</strong> The tentative <a href="cfp.html">Call for Papers</a> has been updated.</li>
-                        <li><strong>January 31, 2021:</strong> A tentative <a href="cfp.html">Call for Papers</a> is published.</li>
-                        <li><strong>January 22, 2021:</strong> NOCS 2021 website is created!</li>
-                    </ul>
+                <ul>
+                    <li><strong>February 9, 2021:</strong> New style for printed pages.
+                    </li>
+                    <li><strong>February 8, 2021:</strong> The tentative <a href="./cfp.html">Call for Papers</a> has been
+                        updated again (important dates remain the same).
+                    </li>
+                    <li><strong>February 4, 2021:</strong> The tentative <a href="./cfp.html">Call for Papers</a> has been
+                        updated.
+                    </li>
+                    <li><strong>January 31, 2021:</strong> A tentative <a href="./cfp.html">Call for Papers</a> is
+                        published.
+                    </li>
+                    <li><strong>January 22, 2021:</strong> NOCS 2021 website is created!</li>
+                </ul>
             </div>
             <div class="col-md-1"></div>
         </div>

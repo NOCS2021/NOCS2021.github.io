@@ -4,8 +4,9 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <link href="bootstrap/css/bootstrap.min.css" type="text/css" rel="stylesheet">
-    <link href="custom.css" type="text/css" rel="stylesheet">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="screen.css" type="text/css" media="screen">
+    <link rel="stylesheet" href="print.css" type="text/css" media="print">
 
     <title>NOCS 2021 - Committee</title>
 </head>
@@ -52,10 +53,23 @@
             </div>
         </div>
     </nav>
+    <div class="banner printonly">
+        <div class="qr printonly">
+            <img src="images/qr.svg" alt="QR Code to reach this website">
+            <p>
+                More info available at:<br>
+                https://nocs2021.github.io/
+            </p>
+        </div>
+        <div class="top-left">
+            <h1>NOCS 2021</h1>
+            <h5>15th&nbsp;IEEE/ACM International Symposium on Networks&#8209;on&#8209;Chip</h5>
+            <br>
+            <h4>October&nbsp;10&#8209;15,&nbsp;2021, Virtual&nbsp;Conference</h4>
+        </div>
+    </div>
 </header>
 <main>
-    <div class="banner"></div>
-
     <div class="container">
         <div class="row">
             <div class="col-md-1"></div>
@@ -63,9 +77,6 @@
                 <h1>
                     Organizing Committee
                 </h1>
-
-                <p>&nbsp;</p>
-
                 <h5>General Chairs</h5>
                 <p>
                     Tushar Krishna (Georgia Institute of Technology)<br>
