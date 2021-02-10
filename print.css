@@ -99,10 +99,11 @@ a:link:after {
     font-size: 10pt;
 }
 
-h5, li, ul {
+.col-md-6, li, ul, p {
     page-break-inside: avoid;
+    width: 100%;
 }
 
-h5 {
-    page-break-after: avoid;
+.row {
+    display: block;
 }
