@@ -79,16 +79,16 @@ Notification of acceptance: July 23, 2021
 ## Organizing Committee
 
 ### General Chairs
-Tushar Krishna (Georgia Institute of Technology)
-John Kim (KAIST)
+Tushar Krishna (Georgia Institute of Technology)  
+John Kim (KAIST)  
 
 ### Technical Program Chairs
-Sergi Abadal (Universitat Politècnica de Catalunya)
-Joshua San Miguel (University of Wisconsin-Madison)
+Sergi Abadal (Universitat Politècnica de Catalunya)  
+Joshua San Miguel (University of Wisconsin-Madison)  
 
 ### Publicity Chairs
-José Luis Abellán (Catholic University of Murcia)
-Kun-Chih Chen (National Sun Yat-Sen University)
+José Luis Abellán (Catholic University of Murcia)  
+Kun-Chih Chen (National Sun Yat-Sen University)  
 Jieming Yin (Lehigh University)
 
 ### Web Chair
