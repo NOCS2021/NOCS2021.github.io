@@ -65,6 +65,8 @@ Electronic paper submission requires a full paper, up to 8 double-column ACM (si
 **New in 2021**
 Journal Special Issue: A selected number of accepted papers will be invited to be published in an ACM JETC Special Issue.
 
+Paper submission website: https://www.softconf.com/l/nocs2021/
+
 Please find the detailed submission instructions for paper submission, special session, and demo proposals at the submission webpage.
 
 --------------------------------------------------------------------------------

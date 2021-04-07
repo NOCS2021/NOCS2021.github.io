@@ -52,11 +52,14 @@ body {
 }
 
 .row h1,
-.row h2,
+.row h2 {
+    color: #3080c0;
+    border-bottom: 1px solid #cccccc;
+}
+
 .row h3,
 .row h4 {
     color: #3080c0;
-    border-bottom: 1px solid #aaaaaa;
 }
 
 h1 {
