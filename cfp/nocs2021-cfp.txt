@@ -2,7 +2,7 @@ NOCS 2021
 =========
 
 15th IEEE/ACM International Symposium on Networks-on-Chip
-October 10 - 15, 2021, Virtual Conference
+October 14 - 15, 2021, Virtual Conference
 (Co-located with Embedded Systems Week 2021)
 https://nocs2021.github.io/
 
