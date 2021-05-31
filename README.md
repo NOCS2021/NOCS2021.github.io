@@ -72,7 +72,7 @@ Please find the detailed submission instructions for paper submission, special s
 --------------------------------------------------------------------------------
 
 ## Important Dates (Anywhere on Earth)
-Abstract registration: ~~May 14, 2021~~ May 31, 2021   
+Abstract registration: ~~May 14, 2021~~ ~~May 31, 2021~~ June 4, 2021  
 Full paper submission: ~~May 21, 2021~~ June 4, 2021  
 Notification of acceptance: July 23, 2021  
 
