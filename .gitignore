@@ -1,3 +1,5 @@
 .*
 !.gitignore
 *~
+cfp/*_v*
+cfp/*pptx
