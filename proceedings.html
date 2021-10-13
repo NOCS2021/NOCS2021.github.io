@@ -1,0 +1,564 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:bkstg="http://www.atypon.com/backstage-ns" xmlns:urlutil="java:com.atypon.literatum.customization.UrlUtil" xmlns:pxje="java:com.atypon.frontend.services.impl.PassportXslJavaExtentions">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="Content-Style-Type" content="text/css">
+    <style type="text/css">
+        #DLtoc {
+            font-family: system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji"
+            font-size: 16px;
+        }
+
+        #DLheader {
+            margin-bottom:30px;
+        }
+        #DLheader h1 {
+            font-size:26px;
+        }
+
+        #DLcontent {
+            font-size:16px;
+        }
+
+        #DLcontent h2 {
+            font-size:20px;
+            margin-top:15px;
+            margin-bottom:10px;
+        }
+        #DLcontent h3 {
+            font-size:12px;
+            padding-left:20px;
+            margin-bottom:0px;
+        }
+
+        #DLcontent ul{
+            margin-top:0px;
+            margin-bottom:15px;
+        }
+
+        .DLauthors li{
+            display: inline;
+            list-style-type: none;
+            padding-left:8px;
+        }
+
+        .DLauthors li:after{
+            content:",";
+        }
+        .DLauthors li.nameList.Last:after{
+            content:"";
+        }
+
+        .DLabstract {
+            padding-left:40px;
+            padding-right:20px;
+            margin-bottom: 25px;
+            display:block;
+        }
+
+        .DLabstract p {
+            margin-bottom: 5px;
+        }
+
+        .DLformats li{
+            display: inline;
+            list-style-type: none;
+            padding-right: 5px;
+        }
+
+        .DLformats li:after{
+            content:",";
+        }
+        .DLformats li.formatList.Last:after{
+            content:"";
+        }
+
+        .DLlogo {
+            vertical-align:middle;
+            padding-right:5px;
+            border:none;
+        }
+
+        .DLcitLink {
+            margin-left:20px;
+        }
+
+        .DLtitleLink {
+            margin-left:20px;
+            font-size: 18px;
+        }
+
+        .DLotherLink {
+            margin-left:0px;
+        }
+
+    </style>
+
+    <title>NOCS '21: Proceedings of the 15th IEEE/ACM International Symposium on Networks-on-Chip</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="screen.css" type="text/css" media="screen">
+    <link rel="stylesheet" href="print.css" type="text/css" media="print">
+
+    <title>NOCS 2021 - Proceedings of the 15th IEEE/ACM International Symposium on Networks-on-Chip</title>
+</head>
+<body>
+
+<header>
+    <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-nocs">
+        <div class="container-fluid">
+
+            <a class="navbar-brand">NOCS&nbsp;2021&nbsp;&nbsp;&raquo;&nbsp;&nbsp;</a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
+                    aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="cfp.html">CALL&nbsp;FOR&nbsp;PAPERS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="submission.html">SUBMISSION</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="program.html">PROGRAM</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">PROCEEDINGS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="registration.html">REGISTRATION</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="committee.html">COMMITTEE</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="past-events.html">PAST&nbsp;EVENTS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="attend.html">ATTEND</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="banner printonly">
+        <div class="qr printonly">
+            <img src="images/qr.svg" alt="QR Code to reach this website">
+            <p>
+                More info available at:<br>
+                https://nocs2021.github.io/
+            </p>
+        </div>
+        <div class="top-left">
+            <h1>NOCS 2021</h1>
+            <h5>15th&nbsp;IEEE/ACM International Symposium on Networks&#8209;on&#8209;Chip</h5>
+            <br>
+            <h4>October&nbsp;14&#8209;15,&nbsp;2021, Virtual&nbsp;Conference</h4>
+        </div>
+    </div>
+</header>
+<main>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-1"></div>
+            <div class="col-md-10">
+                <h1>
+                    Proceedings
+                </h1>
+                <div id="DLtoc">
+                    <div id="DLheader">
+                        <h1>NOCS '21: Proceedings of the 15th IEEE/ACM International Symposium on Networks-on-Chip</h1><a class="DLcitLink" title="Go to the ACM Digital Library for additional information about this proceeding" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/proceedings/10.1145/3479876"><img class="DLlogo" alt="Digital Library logo" height="30" src="https://dl.acm.org/specs/products/acm/releasedAssets/images/footer-logo1.png">
+                        Full Citation in the ACM Digital Library
+                    </a></div>
+                    <div id="DLcontent">
+                        <h2>SESSION: NoCs for DNN accelerators</h2>
+
+                        <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3479876.3481602">A novel network fabric for efficient spatio-temporal reduction in flexible DNN accelerators</a></h3>
+                        <ul class="DLauthors">
+                            <li class="nameList">Francisco Muñoz-Martínez</li>
+                            <li class="nameList">José L. Abellán</li>
+                            <li class="nameList">Manuel E. Acacio</li>
+                            <li class="nameList Last">Tushar Krishna</li>
+                        </ul>
+                        <div class="DLabstract">
+                            <div style="display:inline">
+
+                                <p>Increasing deployment of Deep Neural Networks (DNNs) in a myriad of applications,
+                                    has recently fueled interest in the development of specific accelerator architectures
+                                    capable of meeting their stringent performance and energy consumption requirements.</p>
+                                <p>DNN accelerators use three separate NoCs within the accelerator, namely distribution,
+                                    multiplier and reduction networks (or DN, MN and RN, respectively) between the global
+                                    buffer(s) and compute units (multipliers/adders). These NoCs enable data delivery,
+                                    and more importantly, on-chip reuse of operands and outputs to minimize the expensive
+                                    off-chip memory accesses.</p>
+                                <p>Among them, the RN, used to generate and reduce the partial sums produced during DNN
+                                    processing, is what implies the largest fraction of chip area (25% of the total chip
+                                    area in some cases) and power dissipation (38% of the total chip power budget), thus
+                                    representing a first-order driver of the energy efficiency of the accelerator.</p>
+                                <p>RNs can be orchestrated to exploit a Temporal, Spatial or Spatio-Temporal reduction
+                                    dataflow. Among these, the latter is the one that has shown superior performance.
+                                    However, as we demonstrate in this work, a state-of-the-art implementation of the
+                                    Spatio-Temporal reduction dataflow, based on the addition of Accumulators (Ac) to
+                                    the RN (i.e. RN+Ac strategy), can result into significant area and energy expenses.
+                                    To cope with this important issue, we propose STIFT (that stands for <em>Spatio-Temporal Integrated Folding Tree</em>) that implements the Spatio-Temporal reduction dataflow entirely on the RN hardware
+                                    substrate (i.e. without the need of the extra accumulators). STIFT results into significant
+                                    area and power savings regarding the more complex RN+Ac strategy, at the same time
+                                    its performance advantage is preserved.</p>
+                            </div>
+                        </div>
+
+
+
+                        <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3479876.3481588">Analysis of on-chip communication properties in accelerator architectures for deep
+                            neural networks</a></h3>
+                        <ul class="DLauthors">
+                            <li class="nameList">Hana Krichene</li>
+                            <li class="nameList Last">Jean-Marc Philippe</li>
+                        </ul>
+                        <div class="DLabstract">
+                            <div style="display:inline">
+
+                                <p>Deep neural networks (DNNs) algorithms are expected to be core components of next-generation
+                                    applications. These high performance sensing and recognition algorithms are key enabling
+                                    technologies of smarter systems that make appropriate decisions about their environment.
+                                    The integration of these compute-intensive and memory-hungry algorithms into embedded
+                                    systems will require the use of specific energy-efficient hardware accelerators. The
+                                    intrinsic parallelism of DNNs algorithms allows for the use of a large number of small
+                                    processing elements, and the tight exploitation of data reuse can significantly reduce
+                                    power consumption. To meet these features, many dataflow models and on-chip communication
+                                    proposals have been studied in recent years. This paper proposes a comprehensive study
+                                    of on-chip communication properties based on the analysis of application-specific
+                                    features, such as data reuse and communication models, as well as the results of mapping
+                                    these applications to architectures of different sizes. In addition, the influence
+                                    of mechanisms such as broadcast and multicast on performance and energy efficiency
+                                    is analyzed. This study leads to the definition of overarching features to be integrated
+                                    into next-generation on-chip communication infrastructures for CNN accelerators.</p>
+                            </div>
+                        </div>
+
+
+
+                        <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3479876.3481591">NEWROMAP: mapping CNNs to NoC-interconnected self-contained data-flow accelerators for edge-AI</a></h3>
+                        <ul class="DLauthors">
+                            <li class="nameList">Jan Moritz Joseph</li>
+                            <li class="nameList">Murat Sezgin Baloglu</li>
+                            <li class="nameList">Yue Pan</li>
+                            <li class="nameList">Rainer Leupers</li>
+                            <li class="nameList Last">Lennart Bamberg</li>
+                        </ul>
+                        <div class="DLabstract">
+                            <div style="display:inline">
+
+                                <p>Conventional AI accelerators are limited by von-Neumann bottlenecks for edge workloads.
+                                    Domain-specific accelerators (often neuromorphic) solve this by applying near/in-memory
+                                    computing, NoC-interconnected massive-multicore setups, and data-flow computation.
+                                    This requires an effective mapping of neural networks (i.e, an assignment of network
+                                    layers to cores) to balance resources/memory, computation, and NoC traffic. Here,
+                                    we introduce a mapping called Snake for the predominant convolutional neural networks
+                                    (CNNs). It utilizes the feed-forward nature of CNNs by folding layers to spatially
+                                    adjacent cores. We achieve a total NoC bandwidth improvement of up to 3.8X for MobileNet
+                                    and ResNet vs. random mappings. Furthermore, NEWROMAP is proposed that continues to
+                                    optimize Snake mapping through a meta-heuristic; it also simulates the NoC traffic
+                                    and can work with TensorFlow models. The communication is further optimized with up
+                                    to 22.52% latency improvement vs. pure snake mapping shown in simulations.</p>
+                            </div>
+                        </div>
+
+
+                        <h2>SESSION: Security and NoC routing</h2>
+
+                        <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3479876.3481597">Packet header attack by hardware trojan in NoC based TCMP and its impact analysis</a></h3>
+                        <ul class="DLauthors">
+                            <li class="nameList">Vedika J. Kulkarni</li>
+                            <li class="nameList">R. Manju</li>
+                            <li class="nameList">Ruchika Gupta</li>
+                            <li class="nameList">John Jose</li>
+                            <li class="nameList Last">Sukumar Nandi</li>
+                        </ul>
+                        <div class="DLabstract">
+                            <div style="display:inline">
+
+                                <p>With the advancement of VLSI technology, Tiled Chip Multicore Processors (TCMP) with
+                                    packet switched Network-on-Chip (NoC) have been emerged as the backbone of the modern
+                                    data intensive parallel systems. Due to tight time-to-market constraints, manufacturers
+                                    are exploring the possibility of integrating several third-party Intellectual Property
+                                    (IP) cores in their TCMP designs. Presence of malicious Hardware Trojan (HT) in the
+                                    NoC routers can adversely affect communication between tiles leading to degradation
+                                    of overall system performance. In this paper, we model an HT mounted on the input
+                                    buffers of NoC routers that can alter the destination address field of selected NoC
+                                    packets. We study the impact of such HTs and analyse its first and second order impacts
+                                    at the core level, cache level, and NoC level both quantitatively and qualitatively.
+                                    Our experimental study shows that the proposed HT can bring application to a complete
+                                    halt by stalling instruction issue and can significantly impact the miss penalty of
+                                    L1 caches. The impact of re-transmission techniques in the context of HT impacted
+                                    packets getting discarded is also studied. We also expose the unrealistic assumptions
+                                    and unacceptable latency overheads of existing mitigation techniques for packet header
+                                    attacks and emphasise the need for alternative cost effective HT management techniques
+                                    for the same.</p>
+                            </div>
+                        </div>
+
+
+
+                        <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3479876.3481592">Securing network-on-chips via novel anonymous routing</a></h3>
+                        <ul class="DLauthors">
+                            <li class="nameList">Amin Sarihi</li>
+                            <li class="nameList">Ahmad Patooghy</li>
+                            <li class="nameList">Mahdi Hasanzadeh</li>
+                            <li class="nameList">Mostafa Abdelrehim</li>
+                            <li class="nameList Last">Abdel-Hameed A. Badawy</li>
+                        </ul>
+                        <div class="DLabstract">
+                            <div style="display:inline">
+
+                                <p>Network-on-Chip (NoC) is widely used as an efficient communication architecture in
+                                    multi-core and many-core System-on-Chips (SoCs). However, the shared communication
+                                    resources in NoCs, e.g., channels, buffers, and routers might be used to conduct attacks
+                                    compromising the security of NoC-based SoCs. Almost all of the proposed encryption-based
+                                    protection methods in the literature need to leave some parts of the packet unencrypted
+                                    to allow the routers to process/forward packets accordingly. This uncovers the source/destination
+                                    information of the packet to malicious routers, which can be used in various attacks.
+                                    In this paper, we propose the idea of secure anonymous routing with minimal hardware
+                                    overhead to hide the source/destination information while exchanging secure information
+                                    over the network. The proposed method uses a novel source-routing algorithm that works
+                                    with encrypted destination addresses and prevents malicious routers from discovering
+                                    the source/destination of secure packets. To support our proposal, we have designed
+                                    and implemented a new NoC architecture that works with encrypted addresses. The conducted
+                                    hardware evaluations show that the proposed security solution combats the security
+                                    threats at an affordable cost of 1% area and 10% power overheads chip-wide.</p>
+                            </div>
+                        </div>
+
+
+
+                        <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3479876.3481589">Denial-of-service attack detection using machine learning in network-on-chip architectures</a></h3>
+                        <ul class="DLauthors">
+                            <li class="nameList">Chamika Sudusinghe</li>
+                            <li class="nameList">Subodha Charles</li>
+                            <li class="nameList Last">Prabhat Mishra</li>
+                        </ul>
+                        <div class="DLabstract">
+                            <div style="display:inline">
+
+                                <p>State-of-the-art System-on-Chip (SoC) designs consist of many Intellectual Property
+                                    (IP) cores that interact using a Network-on-Chip (NoC) architecture. SoC designers
+                                    increasingly rely on global supply chains for obtaining third-party IPs. In addition
+                                    to inherent vulnerabilities associated with utilizing third-party IPs, NoC based SoCs
+                                    enable attackers to exploit the distributed nature of NoC and its connectivity with
+                                    various IPs to launch a plethora of attacks. Specifically, Denial-of-Service (DoS)
+                                    attacks pose a serious threat in degrading the SoC performance by flooding the NoC
+                                    with unnecessary packets. In this paper, we present a machine learning-based runtime
+                                    monitoring mechanism to detect DoS attacks. The models are statically trained and
+                                    used for runtime attack detection leading to minimum runtime performance overhead.
+                                    Our approach is capable of detecting DoS attacks with high accuracy, even in the presence
+                                    of unpredictable NoC traffic patterns caused by various application mappings. We extensively
+                                    explore machine learning models and features to provide a comprehensive study on how
+                                    to use machine learning for DoS attack detection in NoC-based SoCs.</p>
+                            </div>
+                        </div>
+
+
+                        <h2>SESSION: NoC design for modern systems</h2>
+
+                        <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3479876.3481601">PIugSMART: a pluggable open-source module to implement multihop bypass in networks-on-chip</a></h3>
+                        <ul class="DLauthors">
+                            <li class="nameList">Alireza Monemi</li>
+                            <li class="nameList">Iván Pérez</li>
+                            <li class="nameList">Neiel Leyva</li>
+                            <li class="nameList">Enrique Vallejo</li>
+                            <li class="nameList">Ramón Beivide</li>
+                            <li class="nameList Last">Miquel Moretó</li>
+                        </ul>
+                        <div class="DLabstract">
+                            <div style="display:inline">
+
+                                <p>The integration of many processing elements per die makes it more difficult to provide
+                                    low latency in the Network-on-Chip (NoC). Multihop bypass proposals, such as SMART,
+                                    attack this problem by allowing flits to skip multiple routers in the path in a single
+                                    cycle, drastically reducing latency while preserving a regular tiled layout. However,
+                                    multihop bypass routers are more complex and relatively different from traditional
+                                    NoC routers, since they rely on global broadcast signals and global allocation mechanisms.
+                                    Additionally, the maximum number of nodes that can be bypassed within a single cycle
+                                    is limited by the Critical Path Delay (CPD) of the NoC. Hence, a practical multihop
+                                    bypass mechanism must also minimize this delay.</p>
+                                <p>To simplify the design of multihop bypass mechanisms, this work introduces PlugSMART,
+                                    an open-source pluggable Verilog module that extends a traditional router to support
+                                    multihop bypass. PlugSMART follows a black box approach, requiring minimal modifications
+                                    from the original router. As an application of PlugSMART, we introduce ProSMART, a
+                                    multihop bypass extension of the efficient NoC router ProNoC. ProSMART is evaluated
+                                    using simulations, FPGA, and ASIC synthesis. Results show that it is more performant
+                                    and requires significantly fewer resources than previous open-source designs. The
+                                    comparison with OpenSMART++, the most recent state-of-the-art SMART-based NoC, shows
+                                    up to a 50% reduction in both area and CPD. Overall, PlugSMART constitutes a simple
+                                    alternative for fast and efficient upgrading of existing NoC routers, allowing to
+                                    implement multihop bypass and significantly improve performance while preserving the
+                                    original characteristics of the router design.</p>
+                            </div>
+                        </div>
+
+
+
+                        <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3479876.3481590">DUB: dynamic underclocking and bypassing in nocs for heterogeneous GPU workloads</a></h3>
+                        <ul class="DLauthors">
+                            <li class="nameList">Srikant Bharadwaj</li>
+                            <li class="nameList">Shomit Das</li>
+                            <li class="nameList">Yasuko Eckert</li>
+                            <li class="nameList">Mark Oskin</li>
+                            <li class="nameList Last">Tushar Krishna</li>
+                        </ul>
+                        <div class="DLabstract">
+                            <div style="display:inline">
+
+                                <p>The performance of graphics processing units (GPU) workloads can be sensitive to the
+                                    various clock domains which are dynamically tunable in modern GPUs. In this work,
+                                    we observe that GPU application performance is sensitive towards NoC clock frequencies
+                                    and the sensitivity varies during the execution of GPU kernels. We note that this
+                                    heterogeneity is not adapted well by traditional dynamic voltage frequency scaling
+                                    (DVFS) techniques. To that end, we introduce DUB, &lt;u&gt;D&lt;/u&gt;ynamic &lt;u&gt;U&lt;/u&gt;nderclocking
+                                    and &lt;u&gt;B&lt;/u&gt;ypassing technique, for such heterogeneous GPU workloads. We enable bypassing
+                                    re-timer flops and routers while underclocking the NoC frequency thus enabling high
+                                    power savings at minimal performance loss. Compared to baseline we observe a 26% improvement
+                                    in power savings with only 3% degradation in performance beating oracular DVFS techniques.</p>
+                            </div>
+                        </div>
+
+
+
+                        <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3479876.3481593">Worst-case latency analysis for the versal NoC network packet switch</a></h3>
+                        <ul class="DLauthors">
+                            <li class="nameList">Ian Lang</li>
+                            <li class="nameList">Nachiket Kapre</li>
+                            <li class="nameList Last">Rodolfo Pellizzoni</li>
+                        </ul>
+                        <div class="DLabstract">
+                            <div style="display:inline">
+
+                                <p>The recent line of Versal FPGA devices from Xilinx Inc. includes a hard Network-On-Chip
+                                    (NoC) embedded in the programmable logic, designed to be a high-performance system-level
+                                    interconnect. While the target markets for Versal devices include applications with
+                                    real-time constraints, such as automotive driver assist, the associated development
+                                    tools only provide figures for "structural latencies" of data packets, which assume
+                                    that the network is otherwise idle. In a realistic setting, this information is not
+                                    enough to ensure deadlines are met, as different packets can contend for NoC switch
+                                    outputs, which causes packet contents to be buffered while in transit, increasing
+                                    their latency. In this work, we present a formal description of the NPS switches that
+                                    compose the Versal NoC from a flit (or packet) scheduling perspective, based on the
+                                    available cycle-accurate switch simulation code. We then analyze a scenario where
+                                    network clients transfer data periodically over a single switch, and propose a method
+                                    for calculating worst-case communication times in this scenario.</p>
+                            </div>
+                        </div>
+
+
+
+                        <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3479876.3481594">Synthesis of predictable global NoC by abutment in synchoros VLSI design</a></h3>
+                        <ul class="DLauthors">
+                            <li class="nameList">Jordi Altayó González</li>
+                            <li class="nameList">Dimitrios Stathis</li>
+                            <li class="nameList Last">Ahmed Hemani</li>
+                        </ul>
+                        <div class="DLabstract">
+                            <div style="display:inline">
+
+                                <p>Synchoros VLSI design style has been proposed as an alternative to the standard cell-based
+                                    design style; the word synchoros is derived from the Greek word choros for space.
+                                    Synchoricity discretises space with a virtual grid, the way synchronicity discretises
+                                    time with clock ticks. SiLago (Silicon Lego) blocks are atomic synchoros building
+                                    blocks like Lego bricks. SiLago blocks absorb all metal layer details, i.e., all wires,
+                                    to enable composition by abutment of valid; valid in the sense of being technology
+                                    design rules compliant, timing clean and OCV ruggedized. Effectively, composition
+                                    by abutment eliminates logic and physical synthesis for the end user. Like Lego system,
+                                    synchoricity does need a finite number of SiLago block types to cater to different
+                                    types of designs. Global NoCs are important system level design components. In this
+                                    paper, we show, how with a small library of SiLago blocks for global NoCs, it is possible
+                                    to automatically synthesize arbitrary global NoCs of different types, dimensions,
+                                    and topology. The synthesized global NoCs are not only valid VLSI designs, but their
+                                    cost metrics (area, latency, and energy) are known with post-layout accuracy in linear
+                                    time. We argue that this is essential to be able to do chip-level design space exploration.
+                                    We show how the abstract timing model of such global NoC SiLago blocks can be built
+                                    and used to analyse the timing of global NoC links with post layout accuracy and in
+                                    linear time. We validate this claim by subjecting the same VLSI designs of global
+                                    NoC to commercial EDA's static timing analysis and show that the abstract timing analysis
+                                    enabled by synchoros VLSI design gives the same results as the commercial EDA tools.</p>
+                            </div>
+                        </div>
+
+
+                        <h2>SESSION: Secure NoC-based systems</h2>
+
+                        <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3479876.3481595">Sentry-NoC: a statically-scheduled NoC for secure SoCs</a></h3>
+                        <ul class="DLauthors">
+                            <li class="nameList">Ahmed Shalaby</li>
+                            <li class="nameList">Yaswanth Tavva</li>
+                            <li class="nameList">Trevor E. Carlson</li>
+                            <li class="nameList Last">Li-Shiuan Peh</li>
+                        </ul>
+                        <div class="DLabstract">
+                            <div style="display:inline">
+
+                                <p>SoC security has become essential with devices now pervasive in critical infrastructure
+                                    in homes and businesses. Today's embedded SoCs are becoming increasingly high-performance
+                                    and complex, comprising multiple cores, accelerators, and IP blocks interconnected
+                                    with a Network-on-Chip (NoC). As these IPs can originate from diverse sources, they
+                                    cannot be trusted to form the root of trust in SoCs. However, the NoC itself, being
+                                    the communication backbone linking all IPs, is naturally positioned to be the basis
+                                    for a secure SoC. Therefore, there is a need for an efficient solution that both meets
+                                    the stringent requirements of modern embedded SoC designs, while maintaining a high
+                                    level of security.</p>
+                                <p>In this paper, we demonstrate how statically-scheduled NoCs inherently enforce traffic
+                                    isolation and non-interference of communication. The time-division multiplexing (TDM)
+                                    of NoC links across applications <em>provably</em> ensures that security properties are fulfilled. However, conventional TDM NoCs are
+                                    still vulnerable to side-channel attacks. We thus propose temporal and data obfuscation
+                                    schemes that can be embedded within static TDM NoCs, randomizing source-destination
+                                    communication patterns and switching activity over the links. Our proposed statically-scheduled
+                                    <em>Sentry-NoC</em> links up untrusted IP blocks to form a secure SoC. <em>Sentry-NoC</em> targets key security properties to effectively mitigate side-channel attacks with
+                                    an extremely low overhead, reducing average temporal correlation by 81% and average
+                                    data correlation by 91%.</p>
+                            </div>
+                        </div>
+
+
+
+                        <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3479876.3481598">Multilayer NoC firewall services: case-study on e-health</a></h3>
+                        <ul class="DLauthors">
+                            <li class="nameList">Miltos D. Grammatikakis</li>
+                            <li class="nameList">Voula Piperaki</li>
+                            <li class="nameList Last">Antonis Papagrigoriou</li>
+                        </ul>
+                        <div class="DLabstract">
+                            <div style="display:inline">
+
+                                <p>Network-on-Chip (NoC) Firewall provides memory protection and process isolation. In
+                                    this paper, we design, implement and validate hierarchical Linux security primitives
+                                    on top of a custom NoC Firewall module embedded on the ARM-based Xilinx Zedboard FPGA.
+                                    Our open-source, multi-layer security protocols aim to protect the privacy of application
+                                    keys stored in non-cacheable BRAM. Experimental results derived from integrating security
+                                    within a soft real-time electrocardiogram monitoring, analysis, and visualization
+                                    application allow evaluating the software overhead of the proposed security primitives.
+                                    Preliminary results indicate that the performance overhead for supporting data privacy
+                                    is acceptable for one-time authentication schemes. However, relative to the processing
+                                    requirements of the E-Health application, security overheads are large, and cannot
+                                    sustain continuous authentication schemes.</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-1"></div>
+        </div>
+    </div>
+</main>
+
+<script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
