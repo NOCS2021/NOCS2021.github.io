@@ -92,7 +92,7 @@ Kun-Chih Chen (National Sun Yat-Sen University)
 Jieming Yin (Lehigh University)
 
 ### Web Chair
-Salvatore Monteleone (Kore University of Enna)
+Salvatore Monteleone (Niccolò Cusano University)
 
 ### Publication Chair
 Mahdi Nikdast (Colorado State University)
