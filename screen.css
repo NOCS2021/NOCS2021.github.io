@@ -74,3 +74,7 @@ h1 {
 .src {
     font-size: smaller;
 }
+
+.best-paper{
+    color: darkred !important;
+}
